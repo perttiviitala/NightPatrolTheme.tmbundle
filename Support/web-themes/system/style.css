@@ -12,11 +12,11 @@
 
 body#tm_webpreview_body.system {
 	font: unset;
-    font-family: "SF Display";
-    font-weight: 400;
+	font-family: "SF Display";
+	font-weight: 400;
 	font-size: 13px;
-	color: rgb(245, 245, 247);
-	background: rgb(17, 17, 17);
+	color: rgb(204, 204, 204);
+	background: rgb(28, 28, 28);
 
 }
 
@@ -27,8 +27,8 @@ body#tm_webpreview_body.system div#tm_webpreview_header {
 	justify-content: space-between;
 	height: 58px;
 	color: rgb(237, 237, 237);
-	background: rgb(25, 25, 26);
-	border-bottom: 1px solid rgb(74, 74, 74);
+	background: rgb(22, 22, 22);
+	border-bottom: 1px solid rgb(40, 40, 40);
 }
 
 /*color: rgb(0, 113, 227)*/
@@ -57,9 +57,11 @@ body#tm_webpreview_body.system div#tm_webpreview_header div#theme_switcher {
 }
 
 body#tm_webpreview_body.system div#tm_webpreview_content {
-	padding: unset;
-	font-size: unset;
-	margin-top: 1em;
+	margin: 2em 1em;
+	padding: 1em;
+	background: rgb(40, 40, 40);
+	box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 3px 0px;
+	border-radius: 4px;
 }
 
 body#tm_webpreview_body.system div#tm_webpreview_content a {
@@ -67,22 +69,30 @@ body#tm_webpreview_body.system div#tm_webpreview_content a {
 }
 
 body#tm_webpreview_body.system div#tm_webpreview_content div.controls {
-	padding: 0 1em;
+	float: right;
+}
+
+body#tm_webpreview_body.system div#tm_webpreview_content div#_scriptmate_output {
+	padding: 1em;
+	font-family: "SF Mono";
+	font-weight: 400;
+	font-size: 13px;
+	color: (204, 204, 204);
+	line-height: 1.35;
+	border-radius: 0.25em;
+	background: rgb(34, 34, 34);
 }
 
 body#tm_webpreview_body.system div#tm_webpreview_content pre {
-    font-family: "SF Mono";
-    font-weight: 400;
-	font-size: 13px;
-	background: rgb(22, 22, 22);
+	font-size: unset;
+	padding: 0;
 }
-
 body#tm_webpreview_body.system div#tm_webpreview_content pre > strong {
-	color: rgb(161, 161, 166);
+	font-family: "SF Display";
+	color: rgb(204, 204, 204);
 }
 body#tm_webpreview_body.system div#tm_webpreview_content div#exception_report {
-	padding: 0 1em;
-	color: rgb(161, 161, 166);
+	color: rgb(204, 204, 204);
 }
 
 /*copied*/
