@@ -18,12 +18,26 @@ body#tm_webpreview_body.nightpatrol {
 
 
 body#tm_webpreview_body.nightpatrol div#tm_webpreview_header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 	color: rgb(237, 237, 237);
 	background: rgb(22, 22, 22);
 	border-bottom: 1px solid rgb(40, 40, 40);
 }
+body#tm_webpreview_body.nightpatrol div#tm_webpreview_header > * {
+	position: unset;
+	top: unset;
+	right: unset;
+	padding: 0 1em;
+}
 body#tm_webpreview_body.nightpatrol div#tm_webpreview_header img {
 	display: none;
+}
+body#tm_webpreview_body.nightpatrol div#tm_webpreview_header p.headline {
+	line-height: 200%;
+	flex-grow: 1;
 }
 
 
