@@ -1,60 +1,60 @@
 @font-face {
-  font-family: "SF Display";
-  font-weight: 400;
-  src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+	font-family: "SF Display";
+	src: url("SF-Pro-Display-Regular.otf");
 }
 
 @font-face {
-  font-family: "SF Mono";
-  font-weight: 400;
-  src: url("https://sf.abarba.me/SFMono-Regular.otf");
+	font-family: "Fira Code";
+	src: url("FiraCode-Regular.otf");
 }
 
 body#tm_webpreview_body.nightpatrol {
-	font: unset;
 	font-family: "SF Display";
-	font-weight: 400;
 	font-size: 13px;
 	color: rgb(204, 204, 204);
 	background: rgb(28, 28, 28);
-
 }
 
+
+
 body#tm_webpreview_body.nightpatrol div#tm_webpreview_header {
-	height: 73px;
 	color: rgb(237, 237, 237);
 	background: rgb(22, 22, 22);
 	border-bottom: 1px solid rgb(40, 40, 40);
 }
-
 body#tm_webpreview_body.nightpatrol div#tm_webpreview_header img {
 	display: none;
 }
 
-body#tm_webpreview_body.nightpatrol div#tm_webpreview_header p.type {
-	top: unset;
-}
+
 
 body#tm_webpreview_body.nightpatrol div#tm_webpreview_content {
-	margin: 2em 1em;
-	padding: 1em;
-	background: rgb(40, 40, 40);
-	box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 3px 0px;
-	border-radius: 4px;
+	margin: 0;
+	padding: 2em;
+	color: rgb(83, 83, 83);
 }
 
 body#tm_webpreview_body.nightpatrol div#tm_webpreview_content a {
+	text-decoration: underline;
 	color: rgb(0, 133, 227);
 }
+body#tm_webpreview_body.nightpatrol div#tm_webpreview_content div.controls a {
+	color: rgb(83, 83, 83);
+}
 
-body#tm_webpreview_body.nightpatrol div#tm_webpreview_content div#_executor_output {
+body#tm_webpreview_body.nightpatrol div#tm_webpreview_content pre {
+	padding: 0;
+	color: rgb(238, 238, 238);
+}
+body#tm_webpreview_body.nightpatrol div#tm_webpreview_content pre div#_executor_output {
 	padding: 1em;
-	font-family: "SF Mono";
-	font-weight: 400;
+	font-family: "Fira Code", "Menlo", "Monaco", monospace;
 	font-size: 13px;
 	line-height: 1.35;
-	border-radius: 0.25em;
-	background: rgb(34, 34, 34);
+	background: rgb(24, 24, 24);
+	box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 3px 0px;
+	border-radius: 4px;
+
 }
 
 /*copied*/
@@ -69,15 +69,15 @@ body#tm_webpreview_body.nightpatrol div#tm_webpreview_content div#_executor_outp
 
 #tm_webpreview_body.nightpatrol h1 {
 	color: #FFF;
-	text-shadow:  #808080 3px 3px 5px;
+	text-shadow: #808080 3px 3px 5px;
 }
 
 #tm_webpreview_body.nightpatrol h2 {
-	text-shadow:  #808080 3px 3px 5px;
+	text-shadow: #808080 3px 3px 5px;
 }
 
 #tm_webpreview_body.nightpatrol h3 {
-	text-shadow:  #808080 3px 3px 5px;
+	text-shadow: #808080 3px 3px 5px;
 }
 
 #tm_webpreview_body.nightpatrol blockquote {
@@ -96,10 +96,10 @@ body#tm_webpreview_body.nightpatrol div#tm_webpreview_content div#_executor_outp
 }
 
 #tm_webpreview_body.nightpatrol kbd {
-  background-color: #3d3f3f;
-  color: #cbc8cd;
-  border: 1px solid #55585a;
-  box-shadow: inset 0 -1px 0 #525456;
+	background-color: #3d3f3f;
+	color: #cbc8cd;
+	border: 1px solid #55585a;
+	box-shadow: inset 0 -1px 0 #525456;
 }
 
 #tm_webpreview_body.nightpatrol .pro_table {
@@ -123,7 +123,7 @@ body#tm_webpreview_body.nightpatrol div#tm_webpreview_content div#_executor_outp
 }
 
 #tm_webpreview_body.nightpatrol div.footnotes {
-   background: #111;
+	background: #111;
 }
 
 
