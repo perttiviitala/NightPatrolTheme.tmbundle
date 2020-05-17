@@ -21,38 +21,18 @@ body#tm_webpreview_body.nightpatrol {
 }
 
 body#tm_webpreview_body.nightpatrol div#tm_webpreview_header {
-	display: flex;
-	flex-direction: row-reverse;
-	align-items: center;
-	justify-content: space-between;
-	height: 58px;
+	height: 73px;
 	color: rgb(237, 237, 237);
 	background: rgb(22, 22, 22);
 	border-bottom: 1px solid rgb(40, 40, 40);
 }
 
-body#tm_webpreview_body.nightpatrol div#tm_webpreview_header img,
-body#tm_webpreview_body.nightpatrol div#tm_webpreview_header p {
+body#tm_webpreview_body.nightpatrol div#tm_webpreview_header img {
 	display: none;
 }
 
-/*body#tm_webpreview_body.nightpatrol div#tm_webpreview_header p.headline,*/
-/*body#tm_webpreview_body.nightpatrol div#tm_webpreview_header p.type {
-	position: unset;
+body#tm_webpreview_body.nightpatrol div#tm_webpreview_header p.type {
 	top: unset;
-	right: unset;
-	color: unset;
-	margin: 0;
-	padding-left: 1em;
-	text-transform: uppercase;
-	font-size: 24px;
-}
-*/
-body#tm_webpreview_body.nightpatrol div#tm_webpreview_header div#theme_switcher {
-	position: unset;
-	top: unset;
-	right: unset;
-	padding-right: 1em;
 }
 
 body#tm_webpreview_body.nightpatrol div#tm_webpreview_content {
@@ -67,39 +47,14 @@ body#tm_webpreview_body.nightpatrol div#tm_webpreview_content a {
 	color: rgb(0, 133, 227);
 }
 
-body#tm_webpreview_body.nightpatrol div#tm_webpreview_content div.controls {
-	float: right;
-}
-
-body#tm_webpreview_body.nightpatrol div#tm_webpreview_content div#_scriptmate_output {
+body#tm_webpreview_body.nightpatrol div#tm_webpreview_content div#_executor_output {
 	padding: 1em;
 	font-family: "SF Mono";
 	font-weight: 400;
 	font-size: 13px;
-	color: (204, 204, 204);
 	line-height: 1.35;
 	border-radius: 0.25em;
 	background: rgb(34, 34, 34);
-}
-
-body#tm_webpreview_body.nightpatrol div#tm_webpreview_content pre {
-	font-size: unset;
-	padding: 0;
-	margin-top: -1em;
-}
-body#tm_webpreview_body.nightpatrol div#tm_webpreview_content pre > strong {
-	font-family: "SF Display";
-	color: rgb(204, 204, 204);
-}
-body#tm_webpreview_body.nightpatrol div#tm_webpreview_content pre > strong:first-child {
-	position: absolute;
-	top: 0.6em;
-	left: 1em;
-	font-size: 24px;
-}
-
-body#tm_webpreview_body.nightpatrol div#tm_webpreview_content div#exception_report {
-	color: rgb(204, 204, 204);
 }
 
 /*copied*/
